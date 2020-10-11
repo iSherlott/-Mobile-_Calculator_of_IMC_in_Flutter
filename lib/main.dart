@@ -31,7 +31,8 @@ class _HomeState extends State<Home> {
   void _calculate() {
     setState(() {
       double weight = double.parse(weightController.text);
-      double height = double.parse(heightController.text);
+      double height = double.parse((heightController.text).replaceAll(",", "."));
+      print(height);
       double imc = weight / (height * height);
 
       if (imc < 18.6) {
