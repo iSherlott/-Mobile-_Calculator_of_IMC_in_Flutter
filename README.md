@@ -14,3 +14,5 @@ samples, guidance on mobile development, and a full API reference.
 
 <p>App with the purpose of calculating the BMI, and giving alerts on the screen how much the user is under, inside or overweight.</p>
 <p>In the apk folder, you will find the application ready to install on android phones</p>
+
+<img src="https://i.ibb.co/R06DZ2S/cal-imc.jpg" width="350" title="hover text">
